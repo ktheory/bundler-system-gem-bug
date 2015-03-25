@@ -1,4 +1,4 @@
-# What's this about?
+## What's this about?
 
 `bundle install --deployment` does not install builtin gems (like minitest,
 json) in the bundler path even if they're in `vendor/cache`.
@@ -21,7 +21,7 @@ The `ruby-minitest` deb package installs minitest 5.2.1 to
 Since the minitest 5.2.1 load path comes earlier 4.7.5, requiring minitest loads
 5.2.1 instead of 4.7.5.
 
-# How to run:
+## How to run:
 
 Clone this repo and run `docker build .`
 
